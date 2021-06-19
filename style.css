@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+.stars {
+    position: absolute;
+}
+.hills{
+    position: absolute;
+    bottom: 0;
+}
+body {
+    font-family: "Red Hat Text", sans-serif;   
+    background-color:hsl(135, 80%, 47%);
+}
+/*Container Palavras */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+/*Contagem*/
+
+.contagem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.container h1 {
+    color:black;
+    width: auto;
+    height: auto;
+}
+.contagem h1 {
+    color: rgb(245, 179, 179);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    
+
+}
+.contagem div{
+    margin:10px;
+}
+.contagem p {
+    padding: 20px;
+    background-color:hsla(235, 81%, 17%, 0.801);
+    border-radius: 5px;
+    color: hsl(135, 80%, 47%);
+}
+.contagem h3{
+    color: hsl(0, 0%, 0%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+/*Redes Sociais*/
+.sociais {
+    position: absolute;
+    bottom: 10px;
+    z-index: 1000;
+    left: 50%;
+    transform: translate(-50%);
+}
+.sociais ul{
+    display: flex;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: centro;
+    color: rgb(255, 255, 255);
+}
+.attribution a{
+    color: aqua;
+}
+@media (max-width:500px) {
+    .contagem {
+        max-width: auto;
+
+    }
+
+
+
+
+}
+@media (min-wdth: 1600px){
+    .stars imag,
+     .hills img {
+        width: 1920px ;
+
+    }
+    
+}
+
+
+
+/* Inicio Do Estilo */
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+    .attribution a {
+         color: hsl(228, 45%, 44%);
+         }
